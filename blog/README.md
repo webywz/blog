@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 记录前端学习笔记
-tagline: （想什么写什么）
+tagline: （想到什么写什么）
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
