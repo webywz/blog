@@ -7,18 +7,18 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: '/favicon.ico',
-      },
+        href: '/favicon.ico'
+      }
     ],
     [
       'meta',
       {
         name: 'viewport',
-        content: 'width=device-width,initial-scale=1,user-scalable=no',
-      },
+        content: 'width=device-width,initial-scale=1,user-scalable=no'
+      }
     ],
     ['meta', { name: 'keywords', content: '前端,js,css' }],
-    ['meta', { name: 'author', content: '零一' }],
+    ['meta', { name: 'author', content: '零一' }]
   ],
   theme: 'reco',
   themeConfig: {
@@ -26,12 +26,12 @@ module.exports = {
       {
         text: 'Home',
         link: '/',
-        icon: 'reco-home',
+        icon: 'reco-home'
       },
       {
         text: 'TimeLine',
         link: '/timeline/',
-        icon: 'reco-date',
+        icon: 'reco-date'
       },
       {
         text: 'Docs',
@@ -39,9 +39,9 @@ module.exports = {
         items: [
           {
             text: 'vuepress-reco',
-            link: '/docs/theme-reco/',
-          },
-        ],
+            link: '/docs/theme-reco/'
+          }
+        ]
       },
       {
         text: 'Contact',
@@ -50,10 +50,10 @@ module.exports = {
           {
             text: 'GitHub',
             link: 'https://github.com/recoluan',
-            icon: 'reco-github',
-          },
-        ],
-      },
+            icon: 'reco-github'
+          }
+        ]
+      }
     ],
     sidebar: {
       '/docs/theme-reco/': [
@@ -62,13 +62,10 @@ module.exports = {
           collapsable: true, // 是否可折叠
           children: [
             // 该块内容对应的所有链接
-            '',
-            'theme',
-            'plugin',
-            'api',
-          ],
-        },
-      ],
+            ''
+          ]
+        }
+      ]
     },
     valineConfig: {
       appId: 'gieEIAaT8jucv7iQaVPDVTzB-gzGzoHsz', // your appId
@@ -76,18 +73,18 @@ module.exports = {
       placeholder: '尽情留下你想说的话吧~', // 评论框占位符
       avatar: 'wavatar', // 评论用户的头像类型
       highlight: true, // 代码高亮
-      recordIP: true, // 记录评论者的IP
+      recordIP: true // 记录评论者的IP
     },
     type: 'blog',
     blogConfig: {
       category: {
         location: 2,
-        text: 'Category',
+        text: 'Category'
       },
       tag: {
         location: 3,
-        text: 'Tag',
-      },
+        text: 'Tag'
+      }
     },
     friendLink: [
       // 友情链接
@@ -98,9 +95,9 @@ module.exports = {
     lastUpdated: 'Last Updated',
     author: 'webChubby',
     authorAvatar: '/avatar.png',
-    startYear: '2021',
+    startYear: '2021'
   },
   markdown: {
-    lineNumbers: true,
-  },
+    lineNumbers: true
+  }
 }
