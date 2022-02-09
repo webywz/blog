@@ -1,6 +1,6 @@
 ---
 title: call&apply&bind函数封装实现
-date: 2022-02-07
+date: 2022-01-07
 categories:
   - 核心知识
 tags:
